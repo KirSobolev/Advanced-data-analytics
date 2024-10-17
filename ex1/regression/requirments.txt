@@ -8,3 +8,6 @@ phik
 autoviz
 ydata-profiling
 sweetviz
+dtreeviz
+shap
+lime

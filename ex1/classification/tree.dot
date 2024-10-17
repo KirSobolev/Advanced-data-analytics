@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="node #0\ncontract <= 1.5\ngini = 0.39\nsamples = 4922\nvalue = [3614, 1308]\nclass = No", fillcolor="#eeaf81"] ;
+1 [label="node #1\ninternetservice <= 1.5\ngini = 0.491\nsamples = 2689\nvalue = [1523.0, 1166.0]\nclass = No", fillcolor="#f9e1d1"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="node #2\ntenure <= 3.5\ngini = 0.406\nsamples = 1215\nvalue = [871, 344]\nclass = No", fillcolor="#efb387"] ;
+1 -> 2 ;
+3 [label="node #3\ngini = 0.494\nsamples = 403\nvalue = [223, 180]\nclass = No", fillcolor="#fae7d9"] ;
+2 -> 3 ;
+4 [label="node #4\ngini = 0.322\nsamples = 812\nvalue = [648, 164]\nclass = No", fillcolor="#eca16b"] ;
+2 -> 4 ;
+5 [label="node #5\ntenure <= 15.5\ngini = 0.493\nsamples = 1474\nvalue = [652, 822]\nclass = Yes", fillcolor="#d6ebfa"] ;
+1 -> 5 ;
+6 [label="node #6\ngini = 0.421\nsamples = 734\nvalue = [221, 513]\nclass = Yes", fillcolor="#8ec7f0"] ;
+5 -> 6 ;
+7 [label="node #7\ngini = 0.486\nsamples = 740\nvalue = [431.0, 309.0]\nclass = No", fillcolor="#f8dbc7"] ;
+5 -> 7 ;
+8 [label="node #8\nmonthlycharges <= 93.675\ngini = 0.119\nsamples = 2233\nvalue = [2091, 142]\nclass = No", fillcolor="#e78a46"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="node #9\ncontract <= 2.5\ngini = 0.064\nsamples = 1684\nvalue = [1628, 56]\nclass = No", fillcolor="#e68540"] ;
+8 -> 9 ;
+10 [label="node #10\ngini = 0.114\nsamples = 757\nvalue = [711, 46]\nclass = No", fillcolor="#e78946"] ;
+9 -> 10 ;
+11 [label="node #11\ngini = 0.021\nsamples = 927\nvalue = [917, 10]\nclass = No", fillcolor="#e5823b"] ;
+9 -> 11 ;
+12 [label="node #12\ncontract <= 2.5\ngini = 0.264\nsamples = 549\nvalue = [463, 86]\nclass = No", fillcolor="#ea985e"] ;
+8 -> 12 ;
+13 [label="node #13\ngini = 0.347\nsamples = 273\nvalue = [212, 61]\nclass = No", fillcolor="#eca572"] ;
+12 -> 13 ;
+14 [label="node #14\ngini = 0.165\nsamples = 276\nvalue = [251, 25]\nclass = No", fillcolor="#e88e4d"] ;
+12 -> 14 ;
+}
