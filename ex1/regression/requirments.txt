@@ -2,7 +2,6 @@ pandas
 numpy
 matplotlib
 seaborn
-tensorflow
 scikit-learn
 phik
 autoviz
@@ -11,3 +10,4 @@ sweetviz
 dtreeviz
 shap
 lime
+ctgan
