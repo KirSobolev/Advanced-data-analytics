@@ -11,3 +11,5 @@ dtreeviz
 shap
 lime
 ctgan
+plotly
+nbformat==4.2.0
