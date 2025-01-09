@@ -13,3 +13,4 @@ lime
 ctgan
 plotly
 nbformat==4.2.0
+category-encoders
